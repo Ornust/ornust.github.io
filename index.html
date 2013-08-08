@@ -293,8 +293,15 @@
 	   			<p>Part <em>pi</em>lates, part <em>yo</em>ga, part <em>cal</em>lanetics. This class will work on <em>stretching</em> and <em>strengthening</em> the whole body through common pilates, yoga and callanetics exercises. Pi-Yo-Cal is a fantastic <em>low-impact class</em> that is excellent for anybody, especially individuals with back, knee and/or joint problems, and those working on physical rehabilitation. This class will <em>tone, tighten, strengthen and lengthen</em> all in one! The class is obviously one part yoga - this results in floor mat usage. Bare feet are recommended.</p>
 	   		</div>
 	   		</div>
-
 	   	</div>
+		
+		<div>
+			<input name="ac1" id="lsnacd14" type="radio"/>
+			<label for="lsnacd14" onclick="scrolltop();">Lesson Pricing</label>
+			<div class="lsncontent" id="lsncontent4">
+			
+			</div>
+			</div>
 	   	</div>
 	   	</div>
 	   	</div>
@@ -306,12 +313,19 @@
 	   </div>
 
 	   <div>
-
-	   <img src="images/dioamore.png" class="dioamoreimage"></img>
+		<div id="missioncontainer">
+	   <img src="images/dioamoremissionrevised.png" class="dioamoremission"></img>
+	    </div>
 
 	   </div>
 	   <div><img src="images/dioamore.png" class="dioamoreimage"></img></div>
+	   
 	   <div>
+	   <div class="beforecfrm">
+	   <h1>What, info not comprehensive enough for 'ya? Well, I understand. My feelings aren't hurt.<br></h1>
+	   <p>We'll get back to you as soon as we can. There are dances to be danced, and students to be taught!</p>
+	   </div>
+	   <div class="cfrm">
 	   <?php
 if (isset($_REQUEST['email']))
 //if "email" is filled out, send email
@@ -320,23 +334,26 @@ if (isset($_REQUEST['email']))
   $email = $_REQUEST['email'] ;
   $subject = $_REQUEST['subject'] ;
   $message = $_REQUEST['message'] ;
-  mail("angeline@dioamoredance.com", $subject,
+  $toinst 
+  mail($toinst, $subject,
   $message, "From:" . $email);
   echo "Thank you for using our mail form";
   }
 else
 //if "email" is not filled out, display the form
-  {
-  echo "<form method='post' action='mailform.php'>
-  Email: <input name='email' type='text'><br>
-  Subject: <input name='subject' type='text'><br>
-  Message:<br>
-  <textarea name='message' rows='15' cols='40'>
-  </textarea><br>
-  <input type='submit'>
-  </form>";
-  }?>
 
+<form method='post' action='mailform.php'><div class="contactform">
+  <p>Email</p> <input name='email' type='text' class='emailform'>
+ <p> Subject</p> <input name='subject' type='text' class='subjectform'>
+ <p> Message</p><textarea name='message' rows='10' cols='30' class='messageform'>
+  </textarea>
+  <ul id="contactul"><li><input type="radio" name="submitselect" class="subminp" id="ang"><label for="ang">Send to Angeline</label></li>
+  <li><input type="radio" name="submitselect" class="subminp" id="kath"><label for="kath">Send to Kathleen</label></li></ul>
+  <input type='submit' class='submitbtn'>
+  </div>
+  </form>
+
+		</div>
   		</div>
 	   <div><img src="images/dioamore.png" class="dioamoreimage"></img></div>
 	   <div><img src="images/dioamore.png" class="dioamoreimage"></img></div>
@@ -377,6 +394,7 @@ $('.Home').click(function(){
   $('#lsnacd').prop('checked', false);
   $('#lsnacd2').prop('checked', false);
   $('#lsnacd3').prop('checked', false);
+  $('.dioamoremission').css("display","none");
   return false;
 });
 $('.Calendar').click(function(){
@@ -384,6 +402,7 @@ $('.Calendar').click(function(){
   $('#lsnacd').prop('checked', false);
 $('#lsnacd2').prop('checked', false);
 $('#lsnacd3').prop('checked', false);
+$('.dioamoremission').css("display","none");
   return false;
 });
 $('.Instructors').click(function(){
@@ -391,6 +410,7 @@ $('.Instructors').click(function(){
   $('#lsnacd').prop('checked', false);
 $('#lsnacd2').prop('checked', false);
 $('#lsnacd3').prop('checked', false);
+$('.dioamoremission').css("display","none");
   return false;
 });
 $('.Lessons').click(function(){
@@ -402,6 +422,7 @@ $('.Location').click(function(){
   $('#lsnacd').prop('checked', false);
 $('#lsnacd2').prop('checked', false);
 $('#lsnacd3').prop('checked', false);
+$('.dioamoremission').css("display","none");
   return false;
 });
 $('.Mission').click(function(){
@@ -409,6 +430,7 @@ $('.Mission').click(function(){
   $('#lsnacd').prop('checked', false);
 $('#lsnacd2').prop('checked', false);
 $('#lsnacd3').prop('checked', false);
+$('.dioamoremission').css("display","block");
   return false;
 });
 $('.FAQ').click(function(){
@@ -416,6 +438,7 @@ $('.FAQ').click(function(){
   $('#lsnacd').prop('checked', false);
 $('#lsnacd2').prop('checked', false);
 $('#lsnacd3').prop('checked', false);
+$('.dioamoremission').css("display","none");
   return false;
 });
 $('.Contact').click(function(){
@@ -423,6 +446,7 @@ $('.Contact').click(function(){
   $('#lsnacd').prop('checked', false);
 $('#lsnacd2').prop('checked', false);
 $('#lsnacd3').prop('checked', false);
+$('.dioamoremission').css("display","none");
   return false;
 });
 $('.Media').click(function(){
@@ -430,6 +454,7 @@ $('.Media').click(function(){
   $('#lsnacd').prop('checked', false);
 $('#lsnacd2').prop('checked', false);
 $('#lsnacd3').prop('checked', false);
+$('.dioamoremission').css("display","none");
   return false;
 });
 $('.Tutorials').click(function(){
@@ -437,6 +462,7 @@ $('.Tutorials').click(function(){
   $('#lsnacd').prop('checked', false);
 $('#lsnacd2').prop('checked', false);
 $('#lsnacd3').prop('checked', false);
+$('.dioamoremission').css("display","none");
   return false;
 });
 
@@ -480,7 +506,19 @@ $('#lsnacd3').prop('checked', false);
 	  {
 	  	   ovrimg.src = ("images/angelineinfo.png");
 	  }
-
+	  
+	  if(bar.id == "barkathleen")
+	  {
+			ovrimg.src = ("images/kathleeninfo.png");
+	  }
+	  
+	  if(bar.id == "barlauren")
+	  {
+			ovrimg.src = ("images/laureninfo.png");
+	}
+	
+	  if(bar.id == "barpeter")
+	  {ovrimg.src = ("images/peterinfo.png");}
 	  document.body.appendChild(ovrimg);
 	  	   $( "#ovrimginfo" ).animate({
       	opacity:1,
