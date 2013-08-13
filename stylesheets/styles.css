@@ -12,12 +12,6 @@ src:url('fonts/Essence Sans Light.ttf');
 font-family: s_serif;
 src:url('fonts/GeosansLight.ttf');
 }
-
-@font-face
-{
-font-family:bnue;
-src:url('fonts/roboto-light.ttf');
-}
 /*Responsive Reset*/
 
 body, html
@@ -44,7 +38,7 @@ header
 
 #dioamoreimage
 {
-  padding:0.7%;width:23.31002331002331%;height:11.91526919682259%;display:inline-block;
+  padding:0.7%;width:23.31002331002331%;height:11.91526919682259%;display:inline-block padding-bottom:0.4%;
 }
 
 #quoteimg
@@ -458,7 +452,7 @@ background-color:darkred;
   .accordion input:checked ~ #lsncontent4
   {
   display:block;
-  height:500px;
+  height:100%;
   }
 
 .accordion input:checked ~ .lsnsub
@@ -489,6 +483,30 @@ background-color:darkred;
 .accordion input:checked ~ #lsnsublg5
 {
   height:18vw;
+}
+
+.accordion input:checked ~ #lsnsublg6
+{
+height:20vw;
+}
+
+.accordion input:checked ~ #lsnsublg7
+{
+height:25vw;
+}
+
+.accordion input:checked ~ #lsnsublg8
+{
+height:25vw;
+}
+
+.accordion input:checked ~ #lsnsublg9
+{
+height:28vw;
+}
+.accordion input:checked ~ .missionacdcontent
+{
+height:85vw;
 }
 
 sub{font-size:smaller;}
@@ -619,3 +637,149 @@ background-color:rgb(65, 0, 0);
 padding:1%;
 background-color:rgb(65, 0, 0);
 }
+
+.pricing
+{
+width:100%;
+font-size:2vw;
+color:white;
+font-family:s_serif;
+text-align:left;
+}
+
+.pricing tr
+{
+background-color:darkred;
+}
+
+.pricing td
+{
+padding:1%;
+}
+
+.pricing th
+{
+padding-left:2%;
+border-right:1px dashed black;
+border-bottom:1px dashed black;
+}
+
+.pricetable1
+{
+width:85%;
+margin-left:auto;
+margin-right:auto;
+margin-top:1vw;
+}
+
+caption
+{
+padding-left:4%;
+}
+
+.missionacdcontent
+{
+height:0;
+}
+
+.missionacdcontent
+{
+font-family:script;
+color:white;
+font-size:1.5vw;
+background-color:#5E0808;
+}
+
+#missionstuff
+{
+padding:1%;
+}
+
+textarea
+{
+background-color:#5E0808;
+color:white;
+border:none;
+}
+
+#lsncontent3 label
+{
+padding-left:20%;
+}
+
+#lsncontent4 label
+{
+padding-left:20%;
+}
+
+#aimgcontainer, #dimgcontainer, #pimgcontainer, #limgcontainer, #kimgcontainer
+{
+height:0;
+overflow:hidden;
+display:block;
+transition:all 0.5s;
+-webkit-transition:all 0.5s;
+}
+
+#aimgcontainer img
+{
+position: relative;
+left: -107px;
+top: -103px;
+}
+
+#kimgcontainer img
+{
+position: relative;
+left: 47px;
+top: -11px;
+}
+
+#barangeline:hover ~ #aimgcontainer, #barkathleen:hover ~ #kimgcontainer, #barlauren:hover ~ #limgcontainer
+{
+height:300px;
+}
+
+
+.faqcontainer label
+{
+font-size:2vw;
+}
+
+.faqcontent
+{
+max-height:0;
+font-size:2vw;
+color:white;
+background-color:#5E0808;
+transition:max-height 1s;
+-webkit-transition:max-height 1s;
+font-family:s_serif;
+overflow:hidden;
+}
+
+.faqcontent p
+{
+padding:1% 1% 1% 4%;
+}
+
+.accordion input:checked ~ .faqcontent
+{
+max-height:50vw;
+}
+
+#faqsub1 label
+{
+padding-left:20%;
+}
+
+.mediatable
+{
+min-width:100%;
+width:100%;
+}
+
+
+
+
+
