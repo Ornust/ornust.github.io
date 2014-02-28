@@ -1,344 +1,290 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>DioAmore Dance &amp; Fitness - Salsa, TRX, West Coast Swing and More</title>
-<meta NAME="Description" CONTENT="DioAmore Dance &amp; Fitness is the best way to learn how to dance, stay in shape, and have fun, in the Vacaville area.">
-<!-- Reset YUI CSS -->
-<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.11.0/build/cssreset/cssreset-min.css">
-
-<!-- CSS files -->
-<link rel="stylesheet" type="text/css" href="stylesheets/styles.css"/>
-<link rel="stylesheet" type="text/css" href="stylesheets/small-device.css" />
-
-<!-- jQuery files -->
-<script src="javascripts/jquery.min.js"></script>
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta NAME="Description" CONTENT="DioAmore Dance &amp; Fitness is the best way to learn how to dance, stay in shape, and have fun, in the Vacaville area.">
+    <title>DioAmore Dance &amp; Fitness</title>
 
 
-<!-- Swipe Slider Javascript file -->
-<script src="javascripts/Dio.min.js"></script>
-<script src="javascripts/swipe.min.js"></script>
 
-</head>
+    <!-- GCal Custom Hosting CSS-->
+    <link rel='stylesheet' type='text/css' href='bower_components/fullcalendar/fullcalendar.css' />
+	
+	<!-- basic stylesheet for royalslider -->
+	<link rel="stylesheet" href="royalslider/royalslider.css" />
+	<link rel="stylesheet" href="royalslider/skins/default/rs-default.css"/>
 
-<body>
-
-	<div id="bodycontainer">
-
-	<header>
-	<div id="mobilehead"><h1 id="mbdio">DioAmore Dance &amp; Fitness</h1></div>
-	<div>
-<img src="images/dioamore2.png" id="dioamoreimage"></img>
-<img id="quoteimg" src="images/dioamoretfhd.png"></img>
-</div>
-	</header>
-
-
-<!-- Nav Bar -->
-	<div id="mobilenav">
-	<div class="accordion">
-		<div>
-		<input id="mobnavaccord" type="checkbox" name="acm" />
-		<label for="mobnavaccord" id="mobnavlabel">Navigation</label>
-		<div class="mobacdcontent" id="contentmobile">
-		 	<ul id="NavMenuMobile">
-			<li id="NavMblCnt">
-  <li class="Home"><a>Home</a></li>
-  <li class="Calendar"><a>Calendar</a></li>
-  <li class="Instructors"><a>Instructors</a></li>
-  <li class="Lessons"><a>Lessons</a></li>
-  <li class="Location"><a>Location</a></li>
-  <li class="Mission"><a>Mission</a></li>
-  <li class="FAQ"><a>FAQ</a></li>
-  <li class="Contact"><a>Contact</a></li>
-  <li class="Media"><a>Media</a></li>
-  <li class="Tutorials"><a>Tutorials</a></li>
-			</li>
-  			</ul>
-  		</div>
-  		</div>
-  		</div>
-  		</div>
-<div id="navigation">
-  <ul id="NavMenu">
-<li id="NavMblCnt">
-  <li class="Home"><a>Home</a></li>
-  <li class="Calendar"><a>Calendar</a></li>
-  <li class="Instructors"><a>Instructors</a></li>
-  <li class="Lessons"><a>Lessons</a></li>
-  <li class="Location"><a>Location</a></li>
-  <li class="Mission"><a>Mission</a></li>
-  <li class="FAQ"><a>FAQ</a></li>
-  <li class="Contact"><a>Contact</a></li>
-  <li class="Media"><a>Media</a></li>
-  <li class="Tutorials"><a>Tutorials</a></li>
-</li>
-  </ul>
-</div>
-
-
-  <!-- Slider Beneath Navbar -->
-<div id="slider" class="swipe">
-	<div class="swipe-wrap">
-	   
-	   <div id="homediv1">
-	 			 <section>
-				<h1 id="homeh">Hey, stranger. We think we like you.</h1>
-				 </section>
-				
-				<section>
-				<p id="hmain">
-				 You may be wondering, "What's a DioAmore? Who am I? WHERE am I?"<br> 
-				 Well, you've come to the right place.
-				We can even answer one of those questions!
-				</p>
-				</section>
-				<h2 id="ns">
-				 In a nutshell, DioAmore is:
-				</h2>
-				<div id="hlist">
-				<ul id="descofd">
-					<li>
-					    <p>A quality learning environment for dancing and fitness that is understanding of your needs</p>
-					</li>
-					<li>
-						<p>The best way to lose your fat and gain your muscle</p>
-					</li>
-					<li>
-						<p>Central to several knowledgeable and experienced instructors</p>
-					</li>
-					<li>
-						<p>A place for you to relax and rejuvenate</p>
-					</li>
-					<li>
-						<p>A method for you to connect with others</p>
-					</li>
-					<li>
-						<p>Your second home</p>
-					</li>
-				</ul>
-				</div>
-
-				
-				<h2 id="sl1btm">. . . We hope you find what you're looking for!</h2>
+    <!--  Foundation requirements-->
+	<link rel="stylesheet" href="stylesheets/app.css" />
+  </head>
+  
+ <body>
+  
+    <header class="Header">
+		<div id="headercontainer">
+			<div id="topbardioamoreimage">
+			
+			<img src="img/dioamore2.png"id="dioamore"alt="DioAmore"></img>
+			
+			<img src="img/quote.png" class="img2"alt="Quote Image"></img>
+			
 			</div>
-
-
-	   <div id="calendardiv">
-		<iframe src="https://www.google.com/calendar/embed?title=DioAmore%20Dance%20%26%20Fitness%20Class%20Calendar&amp;height=850&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=dioamoredance%40gmail.com&amp;color=%23711616&amp;ctz=America%2FLos_Angeles" style=" border-width: 2px;" width="100%" height="850" frameborder="0" scrolling="yes"></iframe>	  
 		</div>
+	</header>
+   
+      <div id="modalEvent" class="reveal-modal" data-reveal>        
+          <a class="close-reveal-modal">close</a> 
+</div>
 
-
-	   <div>
-
-	   		<div id="instrimgcontainer" style="display:inline-block; vertical-align:top; padding:6% 3% 0 5%; max-width:90%">
-	   		<img src="images/instrimg.png" id="instrimg"></img>
-	   		</div>
-	   		<div class="instructorbarcontainer">
-
-
-	   			<button type:"button" id="barangeline" class="insbtn"  onclick="getoverlay(this);">
-	   				<h1 id="alhd">Angeline Lucia</h1>
-	   			</button>
-				
-					<div id="aimgcontainer"><img src="images/angelinebarimg.jpg"></img></div>
-
-	   			<button type:"button" id="barkathleen" class="insbtn"  onclick="getoverlay(this);">
-	   				<h1 id="kshd">Kathleen Stroup</h1>
-	   			</button>
-				
-					<div id="kimgcontainer"><img src="images/kathleenbarimg.jpg"></img></div>
-
-	   			<button type:"button" id="barlauren" class="insbtn"  onclick="getoverlay(this);">
-	   				<h1 id="lbhd">Lauren Bodie</h1>
-	   			</button>
-				
-					<div id="limgcontainer"><img src="images/laurenbarimg.jpg"></img></div>
-
-	   			<button type:"button" id="barpeter" class="insbtn"  onclick="getoverlay(this);">
-	   				<h1 id="pahd">Peter Ayers</h1>
-	   			</button>
-				
-					<div id="pimgcontainer"><img></img></div>
-
-	   			<button type:"button" id="bardamian" class="insbtn"  onclick="getoverlay(this);">
-	   				<h1 id="dthd">Damian Torres</h1>
-	   			</button>
-				
-					<div id="dimgcontainer"><img></img></div>
-
-	   		</div>
-	   	</div>
+	<!--Red Bar-->
+	<div class="custbar">
+	 <ul>
+	
+	<li><a class="slidescontroller" id="#slide-1">Calendar</a></li>
+	<li><a class="slidescontroller" id="#slide-2">Instructors</a></li>
+	<li><a class="slidescontroller" id="#slide-3">Lessons</a></li>
+	<li><a class="slidescontroller" id="#slide-4">Location</a></li>
+	<li><a class="slidescontroller" id="#slide-5">Mission</a></li>
+	<li><a class="slidescontroller" id="#slide-6">FAQ</a></li>
+	<li><a class="slidescontroller" id="#slide-7">Contact</a></li>
+	<li><a class="slidescontroller" id="#slide-8">Media</a></li>
 
 	
-	   <div class="lessonscontainer">
-		<div class="accordion">
-		<div>
-			<input id="lsnacd" name="ac1" type="radio" />
-			<label for="lsnacd">Group Classes</label>
-			<div class = "lsncontent" id="lsncontent1">
-			<p>All public classes at DioAmore are group classes.<br>(For some one-on-one time, you'll need to schedule a private lesson.)</p>
+      </ul>
+      </div>
+	  
+	  <div id="flt"> <h3>Dioamore Dance &amp; Fitness</h3></div>
+	 <!--Alert above the slider-->
+
+	<div data-alert class="custom-alert-box" id="lhd">
+ <a id="wlc" href="#" data-reveal-id="headmodal"> Welcome to the best dance and fitness studio around.</a>
+  <a href="#" class="close">close</a>
+    </div>
+    
+      <div id="headmodal" class="reveal-modal" data-reveal>
+                    <div class="row"><div class="large-12 columns">
+  <h2>Here's a quick overview:</h2>
+          <ul>
+<li><p>If you're looking for <strong>Salsa</strong> or <strong>West-Coast Swing</strong> instruction, you've found the right place;
+we offer a progressive version of both classes, not to mention our reportoire of ballroom dances like <strong>samba</strong> and
+<strong>foxtrot.</strong></p></li>
+
+<li><p>Classes are $10 for "drop-in" students, but the price per class is lower if more classes are taken. There's also
+the option to pay a flat rate of $100 per month for all classes offered.</p></li>
+
+<li><p>Even if you are just looking for somewhere to find new friends, we can help you out. We're all a big family, here
+at the studio.</p></li>
+
+<li><p>On the fence about joining? If you're scared, it's okay to be scared. Many individuals join us who are, at first, 
+quite terrified - but ask any of them, and you'll hear anything but regret. Please give it a try!</p></li>
+          </ul>
+    <h2>For everything else, consult the <strong><a class="slidescontroller" id="#slide-7">FAQ</a></strong>
+         and <strong><a class="slidescontroller" id="#slide-3">Lesson descriptions</a></strong>.</h2>
+  </div></div>
+  <a class="close-reveal-modal">close</a>
+</div>
+
+       
+
+      <!--Off-Canvas Container-->
+<div class="off-canvas-wrap">
+  <div class="inner-wrap">
+    <nav class="tab-bar">
+      <section class="left-small">
+        <a class="left-off-canvas-toggle menu-icon" ><span></span></a>
+      </section>
+
+      <section class="middle tab-bar-section">
+        <h1 class="title">Navigation</h1>
+      </section>
+
+
+    </nav>
+
+    <aside class="left-off-canvas-menu">
+      <ul class="off-canvas-list">
+	
+	<li><a class="slidescontroller" id="#slide-1">Calendar</a></li>
+	<li><a class="slidescontroller" id="#slide-2">Instructors</a></li>
+	<li><a class="slidescontroller" id="#slide-3">Lessons</a></li>
+	<li><a class="slidescontroller" id="#slide-4">Location</a></li>
+	<li><a class="slidescontroller" id="#slide-5">Mission</a></li>
+	<li><a class="slidescontroller" id="#slide-6">FAQ</a></li>
+	<li><a class="slidescontroller" id="#slide-7">Contact</a></li>
+	<li><a class="slidescontroller" id="#slide-8">Media</a></li>
+	
+      </ul>
+    </aside>
+
+
+    <section class="main-section">
+     <div class="row">
+	<div class="large-12 columns">
+	
+<div class="royalSlider rsDefault">
+    <!--Homepage stuff-->
+    <div id="homepage">
+          <ul>
+                      <li><h2>DioAmore Dance &amp; Fitness is..</h2></li>
+<li>..central to experienced and knowledgeable instructors</li>
+<li>..the best way to lose fat and gain muscle</li>
+<li>..a quality learning environment, understanding of your unique needs</li>
+<li>..a place for you to relax and rejuvenate</li>
+<li>..a method for you to connect with others</li>
+<li>..last but not least, your second home.</li>
+          </ul>
+
+    </div>
+
+
+    <!--Calendar-->
+    <div id='calendar'style="width:100%;"></div>
+
+    <!--Instructors-->
+
+    <div></div>
+
+    <!-- Lessons -->
+
+    <div>
+    
+
+        <dl class="tabs vertical" data-tab>
+  <dd class="active"><a href="#panel1a"  class="tabrecalc unhighlight">Group Classes</a></dd>
+  <dd><a href="#panel2a"  class="tabrecalc unhighlight">Skill Tiers</a></dd>
+    <dd>
+    <dl class="accordion" data-accordion>
+  <dd>
+    <a href="#classdesc" class="tabrecalc" id="accordionclickhandle">Class Descriptions</a>
+  </dd>
+</dl>
+  <dd><a href="#panel13a" class="tabrecalc unhighlight" >Lesson Pricing</a></dd>
+</dl>
+
+<div class="tabs-content vertical">
+
+     <div class="panel"><h2>Here, you'll find (just about) everything you need to know about how lessons work at the studio.</h2></div>
+     <div id="classdesc" class="content">
+         <div id="classdescpopout">
+      <dl class="tabs" data-tab>
+        <dd><a href="#panel3a" class="tabrecalc">Absolution</a></dd>
+        <dd><a href="#panel4a" class="tabrecalc">Ballroom I/II</a></dd>
+        <dd><a href="#panel5a" class="tabrecalc">Booty Boot Camp</a></dd>
+        <dd><a href="#panel6a" class="tabrecalc">Cardio Kickboxing</a></dd>
+        <dd><a href="#panel7a" class="tabrecalc">Mobiflex</a></dd>
+        <dd><a href="#panel8a" class="tabrecalc">Pi-Yo-Cal</a></dd>
+        <dd><a href="#panel9a" class="tabrecalc">Salsa</a></dd>
+        <dd><a href="#panel10a" class="tabrecalc">TRX</a></dd>
+        <dd><a href="#panel11a" class="tabrecalc">West-Coast-Swing</a></dd>
+        <dd><a href="#panel12a" class="tabrecalc">Zumba</a></dd>
+      </dl>
+             </div>
+    </div>
+  
+
+  <div class="content active" id="panel1a">
+      <p>All public classes at DioAmore are group classes.<br>(For some one-on-one time, you'll need to schedule a private lesson.)</p>
 	
 	
 
 	   			<p>
 	   			Before introducing the dynamics of a regular class, it is important to understand the difference between a "progressive" session, and a "drop-in" session:
 
-	   				<ul>
-	   					<li> A <em>progressive</em> session requires that you sign up from the <em>beginning</em> of the month,
+	   				
+	   					<p> A <span data-tooltip class="has-tip" title="Progressive classes include Salsa, West-Coast Swing and Ballroom classes over the course of one month.">progressive</span> session requires that you sign up from the <em>beginning</em> of the month,
 	   			and continues on until the end of that particular month. <em>You are expected to attend all sessions.</em> "Lost" classes cannot be
-	   			"made up".</li>
-	   					<li>A <em>drop-in</em> session is flexible, allowing you to take a <em>singular</em> class at a time - with no commitments.</li>
-	   				</ul>
+	   			"made up".</p>
+	   					<p>A <span data-tooltip class="has-tip" title="Drop-in classes include all fitness classes, as well as all line-dancing lessons.">drop-in</span> session is flexible, allowing you to take a <em>singular</em> class at a time - with no commitments.</p>
+	   				
 	   			</p>
+
+                
 	   			
 	   			<p>You are not explicitly required to bring any partner to our classes, but you may need feet. By the way,
 	   			you are allowed to wear nothing but socks on your feet - but you may find that this gets tiring after some time.
 				Sneakers are not recommended, as they grip the floor too much. A better approach might be a jazz sneaker.
-	   			Do what best suits you, as long as that doesn't involve equipping a full suit of armor. Sorry, King Arthur!</p>
+	   			Do what best suits you!</p>
 
-	   			<p>For <em>dance classes</em>, you will be required to dance with all attendees of the opposite sex for at least a significant fragment of the time allocated to the given class - but, as was mentioned before, you do not need to bring anyone with you when you come through the door.</p>
+	   			<p>For <em>dance classes</em>, you will be required to dance with all attendees for at least a significant fragment of the time allocated to the given class - but, as was mentioned before, you do not need to bring anyone with you when you come through the door.</p>
 
-	   			<p><em>Fitness classes</em>, though, are slightly different; for the most part, you won't be required to interact (physically) with other members that attend the class that you intend to take. You will, however, be quite sweaty by the end of the session. On a more serious note (Aw, shucks), you aren't expected to go beyond the limits of your body - we believe in working towards a goal, instead of pushing the boundaries of safety.</p>
+	   			<p><em>Fitness classes</em>, though, are slightly different; for the most part, you won't be required to interact (physically) with other members that attend the class that you intend to take. You will, however, be quite sweaty by the end of the session. On a more serious note, you aren't expected to go beyond the limits of your body - we believe in working towards a goal, instead of pushing the boundaries of safety.</p>
 
-	   			<p>Congratulations, you are now up to date on how group classes work here at the studio! Pass GO and collect $200.</p>
+	   			<p>Congratulations, you are now up to date on how group classes work here at the studio!</p>
+  
 
-	   		</div>
-	   	</div>
-	   	<div>
-	   	<input id="lsnacd2" name="ac1" type="radio"  onclick="scrolltop();" />
-	   	<label for="lsnacd2">Skill Tiers</label>
-	   	<div class="lsncontent" id="lsncontent2">
-	   	<p>There are three different skill levels that you should be aware of. Accordingly, these are termed:</p>
+  </div>
+  <div class="content" id="panel2a">
+        <p>There are two different skill levels that you should be aware of. Accordingly, these are termed:</p>
 
-	   			<p><em>"Fun-d", fundamentals, or beginner</em> - all students are allowed to attend these classes, as they are
-	   			intended to teach new students; of course, if the luster of your knowledge resembles an abandoned Volkswagen, we
-	   			won't complain when you come rushing into the studio. You'll work on <em>basic steps, technique</em> and <em>timing.</em></p>
+	   			<p><em>"Fun-d", fundamentals, or beginner</em></p> 
+      
+                    <p>These classes are open to all students of all levels.
+                        These classes will focus on good technique, timing and build a strong foundation for your dancing.</em></p>
 
-	   			<p><em>Beyond beginner</em> - The class to take when you feel your skills are precisely between beginner and intermediate, or if your particular class has progressed to this point. Not sure? Howl out to the appropriate instructor for guidance. No, don't actually howl. It's just an expression. You'll work on <em>more interesting patterns</em>, making your technique <em>easy, correct and interesting</em>, and <em>expansion upon fundamental concepts.</em></p>
+	   			<p><em>Intermediate/Advanced</em></p>
 
-	   			<p><em>Intermediate</em> - This is the highest publically offered skill tier. If you think you're ready, your instructor will decide whether you are adequately equipped to handle the information you receive here; the great majority depends on your success in the previous grade(s), or, alternatively, previous dance experience in general. Sometimes, more advanced ideas are worked through. After you have taken enough classes to feel comfortable with your skills, you may wish to show them off somewhere! This will develop you rapidly. And, after all, we are devoted to your success. Aren't we so nice? You'll work on: <em>styling your patterns,</em> further development of <em>advanced technique</em>, making your patterns <em>precise and fluid</em>, and <em>general interaction tips</em> with a dance partner.
-	   	</div>
-	   	</div>
-	   	<div>
-	   	<input id="lsnacd3" name="ac1" type="radio" />
-	   	<label for="lsnacd3" onclick="scrolltop();">Class Descriptions</label>
-	   	<div class="lsncontent" id="lsncontent3">
+<p>Intermediate classes are appropriate for those with previous dance experience and/or those students who have 
+successfully completed the <em>fundamental/beginner</em> level. These classes focus on more advanced patterns, 
+cleaner technique, and styling. Students at the intermediate level are expected to know the entire <em>fundamental/beginner</em> 
+class syllabus and be able to perform it competently with a partner. If you are unsure if this class is right 
+for you, please ask your instructor for guidance.
+  </div>
 
-			<div>
-	   		<input id="lsnacd9" name="ac2" type="radio" />
-	   		<label for="lsnacd9" >AbSolution</label>
-	   		<div class="lsnsub">
-	   			<p>Just half an hour to abs your friends will be jealous of!  If your mid-section is your problem, than we have the <em>AbSolution.</em> (I'm sorry.) You will feel the burn as we tone, tighten and flatten out your core to give you "fab" abs. This will be a challenging class - <em>no whining allowed!</em> The use of a yoga-style mat will be involved. A limited amount of mats are available for use in the studio; of course, you may bring your own, too. Bare feet are recommended for this class.</p>
-	   		</div>
-	   		</div>
-		
-			<div>
-	   		<input id="lsnacd6" name="ac2" type="radio" />
-	   		<label for="lsnacd6" >Ballroom I / II</label>
-	   		<div class="lsnsub" id="lsnsublg3">
-	   			<p><em>Ballroom I</em> focuses on the smooth/standard dances, and the slower rhythm/latin and social dances: Fox Trot, Quickstep, Waltz, Viennese Waltz, Tango, Polka, Rumba, Bolero and Night Club 2-Step. This is a <em>beginner drop-in class</em>; no partner is required. <em>Ballroom II</em> focuses on the quicker rhythm/latin and social dances: Cha Cha, Salsa Samba, Hustle, Mambo, Merengue, East Coast Swing, West Coast Swing, Bachata, and Country 2-Step. The same beginner, drop-in parameters apply to this class category.</p>
-	   		</div>
-	   		</div>
-			
-			<div>
-	   		<input id="lsnacd11" name="ac2" type="radio" />
-	   		<label for="lsnacd11" >Booty Boot Camp</label>
-	   		<div class="lsnsub">
-	   			<p>It could be thirty minutes to a behind you could bounce a quarter off of! If it&apos;s "saggin", "baggin", "draggin", or just &quot;ain&apos;t what it used to be&quot;, drop in to <em>Booty Boot Camp</em> and begin hearing how they &quot;hate to see you go, but love to watch you leave&quot;! This will be a <em>challenging class</em>. As with certain other classes, floor mats will be utilized; some are available at the studio, but you may also bring your very own.</p>
-	   		</div>
-	   		</div>
-			
-			<div>
-	   		<input id="lsnacd10" name="ac2" type="radio" />
-	   		<label for="lsnacd10" >Cardio Kickboxing</label>
-	   		<div class="lsnsub">
-	   			<p><em>Cardio kickboxing</em> is a total body workout that will quickly sculpt the arms, shoulders, core, glutes and legs. This class will teach you how to safely and effectively throw punches and kicks, while improving your <em>strength, agility, speed, reaction time and cardiac fitness.</em> Not to mention, it is a lot of fun! You do like fun, don't you? Cardio kickboxing won't just toughen you up, it will tighten you up!</p>
-	   		</div>
-	   		</div>
-			
-			<div>
-	   		<input id="lsnacd12" name="ac2" type="radio" />
-	   		<label for="lsnacd12" >Mobiflex</label>
-	   		<div class="lsnsub" id="lsnsublg">
-	   			<p>From my years of experience working with seniors, I've seen firsthand what life can do to the body - especially with the kind of lifestyles we live these days. Hours in front of computers, hours <em>sitting at desks</em>, hours in front of the <em>boob tube</em>, and hours <em>standing on our feet</em> do not contribute to our health.</p>
-	   			<p> This class aims to be both <em>preventative and rehabilitative</em> for joint and muscle mobility and flexibility.  It will increase range of motion, and decrease painful stiffness. This class will essentially be an isolations warm-up, with some stretching involved. We will cover <em>neck, shoulders, elbows, chest, back, hips, knees</em>, and even the little joints of the <em>ankles, wrists, fingers and toes.</em></p>
-	   			<p> If you have any <em>range of motion limitations</em>, are <em>tight anywhere in the body</em>, are developing/have any issues such as <em>carpal tunnel and plantar fasciitis </em>, or just generally feel stiff and tight, or want to prevent your body from having any of these issues, then this class is for YOU!</p>
-	   		</div>
-	   		</div>
-			
-			<div>
-	   		<input id="lsnacd13" name="ac2" type="radio" />
-	   		<label for="lsnacd13" >Pi-Yo-Cal</label>
-	   		<div class="lsnsub" id="lsnsublg5">
-	   			<p>Part <em>pi</em>lates, part <em>yo</em>ga, part <em>cal</em>lanetics. This class will work on <em>stretching</em> and <em>strengthening</em> the whole body through common pilates, yoga and callanetics exercises. Pi-Yo-Cal is a fantastic <em>low-impact class</em> that is excellent for anybody, especially individuals with back, knee and/or joint problems, and those working on physical rehabilitation. This class will <em>tone, tighten, strengthen and lengthen</em> all in one! The class is obviously one part yoga - this results in floor mat usage. Bare feet are recommended.</p>
-	   		</div>
-	   		</div>
-			
-	   		<div>
-	   		<input id="lsnacd4" name="ac2" type="radio" />
-	   		<label for="lsnacd4" >Salsa</label>
-	   		<div class="lsnsub">
-	   			<p>Beginner <em>Salsa</em> classes are designed to give you all the basics you will need to be a competent beginner dancer on the dance floor. Lessons are <em>progressive</em>, and class is held twice per week. New sessions begin at the start of a given month. Once you have your basics down, you are welcome to join the intermediate class - we'll focus on new patterns, improved technique, cleaner footwork, and styling. Take your salsa to the next level! </p>
-	   		</div>
-	   		</div>
-			
-			<div>
-	   		<input id="lsnacd7" name="ac2" type="radio" />
-	   		<label for="lsnacd7" >TRX</label>
-	   		<div class="lsnsub" id="lsnsublg4">
-	   			<p>Brought to the world by the U.S. Navy SEALS, and developed by Fitness Anywhere&reg;, <em>Suspension Training</em>&reg; is a revolutionary method of leveraged bodyweight exercise. Safely perform hundreds of functional exercises that build <em>power, strength, flexibility, balance, mobility</em>, and prevent injuries, all at the <em>intensity you choose</em>. Whether you are a seriously conditioned athlete, have encountered limitations in other forms of exercises due to past injuries, or are seriously deconditioned and out of shape, <em>TRX is perfect for all fitness levels</em>. Regardless of whether your goal is to improve your football game, improve joint mobility, get ripped abs, get back that cute little figure you had in high school, or just enjoy a healthier way of life, TRX will help you attain those goals!</p>
-	   		</div>
-	   		</div>
+            <div class="content" id="panel3a">
+         <p>Just half an hour to abs your friends will be jealous of!  If your mid-section is your problem, than we have the <em>AbSolution.</em> You will feel the burn as we tone, tighten and flatten out your core to give you "fab" abs. This will be a challenging class - <em>no whining allowed!</em> The use of a yoga-style mat will be involved. A limited amount of mats are available for use in the studio; of course, you may bring your own, too. Bare feet are recommended for this class.</p>
+        </div>
+        <div class="content" id="panel4a">
+          <p>Each month we rotate through two new dances - one dance in <em>Beginner Ballroom I</em>, and a different dance
+in <em>Beginner Ballroom II</em>. Since the dances are taught quickly (typically over four sessions) they are designed to be an 
+introduction; as such, students can expect to learn the basic and a few beginner 
+patterns for the given dance.</p>
+        </div>
+        <div class="content" id="panel5a">
+         <p>It could be thirty minutes to a behind you could bounce a quarter off of! If it's "saggin", "baggin", "draggin", or just "ain't what it used to be", drop in to <em>Booty Boot Camp</em> and begin hearing how they "hate to see you go, but love to watch you leave"! This will be a <em>challenging class</em>. As with certain other classes, floor mats will be utilized; some are available at the studio, but you may also bring your very own.</p>
+        </div>
+        <div class="content" id="panel6a">
+          <p><em>Cardio kickboxing</em> is a total body workout that will quickly sculpt the arms, shoulders, core, glutes and legs. This class will teach you how to safely and effectively throw punches and kicks, while improving your <em>strength, agility, speed, reaction time and cardiac fitness.</em> Not to mention, it is a lot of fun! You do like fun, don't you? Cardio kickboxing won't just toughen you up, it will tighten you up!</p>
+        </div>
+        <div class="content" id="panel7a">
+          <p>From my years of experience working with seniors, I've seen firsthand what life can do to the body - especially with the kind of lifestyles we live these days. Hours in front of computers, hours <em>sitting at desks</em>, hours in front of the <em>boob tube</em>, and hours <em>standing on our feet</em> do not contribute to our health.</p>
+          <p> This class aims to be both <em>preventative and rehabilitative</em> for joint and muscle mobility and flexibility.  It will increase range of motion, and decrease painful stiffness. This class will essentially be an isolations warm-up, with some stretching involved. We will cover <em>neck, shoulders, elbows, chest, back, hips, knees</em>, and even the little joints of the <em>ankles, wrists, fingers and toes.</em></p>
+          <p> If you have any <em>range of motion limitations</em>, are <em>tight anywhere in the body</em>, are developing/have any issues such as <em>carpal tunnel and plantar fasciitis </em>, or just generally feel stiff and tight, or want to prevent your body from having any of these issues, then this class is for YOU!</p>
+        </div>
+        <div class="content" id="panel8a">
+          <p>Part <em>pi</em>lates, part <em>yo</em>ga, part <em>cal</em>lanetics. This class will work on <em>stretching</em> and <em>strengthening</em> the whole body through common pilates, yoga and callanetics exercises. Pi-Yo-Cal is a fantastic <em>low-impact class</em> that is excellent for anybody, especially individuals with back, knee and/or joint problems, and those working on physical rehabilitation. This class will <em>tone, tighten, strengthen and lengthen</em> all in one! The class is obviously one part yoga - this results in floor mat usage. Bare feet are recommended.</p>
+        </div>
+        <div class="content" id="panel9a">
+          <p>Beginner <em>Salsa</em> classes are designed to give you all the basics you will need to be a competent beginner dancer on the dance floor. Lessons are <em>progressive</em>, and class is held twice per week. New sessions begin at the start of a given month. Once you have your basics down, you are welcome to join the intermediate class - we'll focus on new patterns, improved technique, cleaner footwork, and styling. Take your salsa to the next level! </p>
+        </div>
+        <div class="content" id="panel10a">
+          <p>Brought to the world by the U.S. Navy SEALS, and developed by Fitness Anywhere®, <em>Suspension Training</em>® is a revolutionary method of leveraged bodyweight exercise. Safely perform hundreds of functional exercises that build <em>power, strength, flexibility, balance, mobility</em>, and prevent injuries, all at the <em>intensity you choose</em>. Whether you are a seriously conditioned athlete, have encountered limitations in other forms of exercises due to past injuries, or are seriously deconditioned and out of shape, <em>TRX is perfect for all fitness levels</em>. Regardless of whether your goal is to improve your football game, improve joint mobility, get ripped abs, get back that cute little figure you had in high school, or just enjoy a healthier way of life, TRX will help you attain those goals!</p>
+        </div>
+        <div class="content" id="panel11a">
+          <p>Beginner <em>West Coast Swing classes</em> will arm you with the knowledge necessary to dance at an entry level. Lessons are <em>progressive</em>, and class is held twice per week. New sessions will begin at the start of a given month. As with the intermediate salsa class, you will be interested in the intermediate level - once you're comfortable with all of the basic patterns of the beginner level. We hope you will be able to reach your goals!</p>
+        </div>
+        <div class="content" id="panel12a">
+          <p><em>Zumba</em> is a <em>dance fitness class</em>, with its main focus being FUN! If you're not having fun, you're not doing it right.</p>
+          <p> Zumba means, "Let's Party!" The class makes use of all styles of international music - from <em>salsa</em> to <em>flamenco</em>, to <em>hip hop</em> and <em>belly dancing.</em> Men and women in an average weight range will typically burn <em>350-650 calories per hour</em><sub><a href="http://www.acefitness.org/certifiednewsarticle/2813/">1</a></sub>. The main idea behind Zumba is to simply make it <em>FUN and EASY</em> for everyone of every fitness level to enjoy an exhilerating workout. You can even be sitting down and participating!</p>
+          <p>You do not need to dance like the instructor, or any other individual. <em>Pace</em> yourself! Leave your ego at the door, and honor your body - by getting the workout your body needs. Rule number one in this class is to have FUN!  Rule number two is to KEEP MOVING! We not care what you do, or how you do it; as long as you are moving, your heart is racing, and your sweat is pouring. If you follow these guidelines, fitness can finally be fun! Forget "working out". Come party with us in <em>Zumba!</em> </p>
+        </div>
 
-	   		<div>
-	   		<input id="lsnacd5" name="ac2" type="radio" />
-	   		<label for="lsnacd5" >West Coast Swing</label>
-	   		<div class="lsnsub">
-	   			<p>Beginner <em>West Coast Swing classes</em> will arm you with the knowledge necessary to dance at an entry level. Lessons are <em>progressive</em>, and class is held twice per week. New sessions will begin at the start of a given month. As with the intermediate salsa class, you will be interested in the intermediate level - once you're comfortable with all of the basic patterns of the beginner level. We hope you will be able to reach your goals!</p>
-	   		</div>
-	   		</div>
-
-	   		<div>
-	   		<input id="lsnacd8" name="ac2" type="radio" />
-	   		<label for="lsnacd8" >Zumba</label>
-	   		<div class="lsnsub" id="lsnsublg2">
-	   			<p><em>Zumba</em> is a <em>dance fitness class</em>, with its main focus being FUN! If you're not having fun, you're not doing it right.
-	   			</p>
-	   			<p> Zumba means, "Let's Party!" The class makes use of all styles of international music - from <em>salsa</em> to <em>flamenco</em>, to <em>hip hop</em> and <em>belly dancing.</em> Men and women in an average weight range will typically burn <em>350-650 calories per hour</em><sub><a href="http://www.acefitness.org/certifiednewsarticle/2813/">1</a></sub>. The main idea behind Zumba is to simply make it <em>FUN and EASY</em> for everyone of every fitness level to enjoy an exhilerating workout. You can even be sitting down and participating!</p>
-	   			<p>You do not need to dance like the instructor, or any other individual. <em>Pace</em> yourself! Leave your ego at the door, and honor your body - by getting the workout your body needs. Rule number one in this class is to have FUN!  Rule number two is to KEEP MOVING! We not care what you do, or how you do it; as long as you are moving, your heart is racing, and your sweat is pouring. If you follow these guidelines, fitness can finally be fun! Forget "working out". Come party with us in <em>Zumba!</em> </p>
-	   		</div>
-	   		</div>
-
-			
-
-	   	</div>
-		
-		<div>
-			<input name="ac1" id="lsnacd14" type="radio"/>
-			<label for="lsnacd14" onclick="scrolltop();">Lesson Pricing</label>
-			<div class="lsncontent" id="lsncontent4">
-			<p>Feast your eyes on these fancy tables, and become educated. Knowledge is power.</p>
-			<div>
-			<input id="pracd" name="ac4" type="radio" />
-			<label for="pracd">Group Classes</label>
-			<div class = "lsnsub" id="lsnsublg6">
-			<p>Normal classes are priced as follows:</p>
-
-			<div class="pricetable1">
-
-<table class="pricing">
-		<tr>
+  <div class="content" id="panel13a">
+    <p>Feast your eyes on these fancy tables, and become educated. Knowledge is power.</p>
+    <p>Normal class rates:</p>
+    <table class="resptable">
+		<tbody><tr>
 			<th>Classes Taken / Week</th>
 			<td>&lt;1</td>
 			<td>1</td>
 			<td>2</td>
 			<td>3</td>
 			<td>4</td>
-			<td>>4</td>
+			<td>&gt;4</td>
 		</tr>
 		
 		<tr>
-			<th style="border-bottom:none;">Price / Class</th>
+			<th>Price / Class</th>
 			<td>$10</td>
 			<td>$8</td>
 			<td>$7.25</td>
@@ -346,23 +292,14 @@
 			<td>$5.75</td>
 			<td>Flat $100</td>
 		</tr>
-</table>
-			</div>
+</tbody></table>
 
-			<p style="font-size:1.5vw;">(Taking less than one class per week would mean that you are occasionally attending drop-in classes. Half-hour classes
-			only count towards one-half of a class; finally, attending more than four classes a week means that you're on the "unlimited"
-			plan, so you can take as many as you could possibly desire. Oui, oui?)</p>
-			</div>
-			</div>
-			<div>
-			<input id="pracd2" name="ac4" type="radio" />
-			<label for="pracd2">Private Lessons</label>
-			<div class = "lsnsub" id="lsnsublg7">
-			<p style="text-align:center;">Private lessons are available for singles and couples. We do not currently offer private services to polygamists.
-			(These are sessions that are fifty minutes long, five of which are devoted to scheduling more lessons.)</p>
-			
-			<table class="pricing">
-		<tr>
+    
+      <p>(Taking less than one class per week would mean that you are occasionally attending drop-in classes. Half-hour classes only count towards one-half of a class; finally, attending more than four classes a week means that you're on the "unlimited" plan, so you can take as many as you could possibly desire.)</p>
+      
+      <p>Private lessons are strictly available for singles and couples. (These are sessions that are fifty minutes long, five of which are devoted to scheduling more lessons.)</p>
+      <table class="resptable">
+		<tbody><tr>
 			<th>Number of Lessons</th>
 			<td>1</td>
 			<td>8</td>
@@ -390,7 +327,7 @@
 		</tr>
 		
 		<tr>
-			<th style="border-bottom:none;">First Package Bonus</th>
+			<th>First Package Bonus</th>
 			<td>No</td>
 			<td>Yes</td>
 			<td>Yes</td>
@@ -398,17 +335,11 @@
 			<td>Yes</td>
 		</tr>
 			
-</table>
-</div>
-</div>
-<div>
-			<input id="pracd3" name="ac4" type="radio" />
-			<label for="pracd3">Private Fitness</label>
-			<div class = "lsnsub" id="lsnsublg8">
-			<p>Private fitness training works very similarly to private dance lessons, except that the sessions are one hour long,
-			with five minutes devoted to scheduling.</p>
-			<table class="pricing">
-			<tr>
+</tbody></table>
+
+      <p>Private fitness training works very similarly to private dance lessons, except that the sessions are one hour long, with five minutes devoted to scheduling.</p>
+      <table class="resptable">
+			<tbody><tr>
 			<th>Number of Lessons</th>
 			<td>1</td>
 			<td>8</td>
@@ -436,370 +367,515 @@
 		</tr>
 		
 		<tr>
-			<th style="border-bottom:none;">First Package Bonus</th>
+			<th>First Package Bonus</th>
 			<td>No</td>
 			<td>Yes</td>
 			<td>Yes</td>
 			<td>Yes</td>
 			<td>Yes</td>
 		</tr>
-		</table>
-		</div>
-		</div>
-		<div>
-			<input id="pracd4" name="ac4" type="radio" />
-			<label for="pracd4">Parties</label>
-			<div class = "lsnsub" id="lsnsublg9">
-		<p>Sometimes, we feel the need to host parties so amazing, even your robot nemesis
-		will have a "grand ol' time"! Here are the reasonable rates of entry:</p>
-		<div class="pricetable1">
-		<table class="pricing">
-		<tr>
+		</tbody></table>
+
+      <p>Sometimes, we feel the need to host amazing parties. Here are the reasonable rates of entry:</p>
+      <table class="resptable">
+		<tbody><tr>
 			<th></th>
 			<th>Students</th>
 			<th>Guests</th>
 		</tr>
 		
-		<tr>
-			<th>One Group Class</th>
-			<td>$5</td>
-			<td>$6</td>
-		</tr>
 		
 		<tr>
-			<th>Both Group Classes</th>
+			<th>Ballroom Dances</th>
+			<td>$7</td>
 			<td>$9</td>
-			<td>$11</td>
 		</tr>
 		
-		<tr>
-			<th>Party Only</th>
-			<td>$5</td>
-			<td>$6</td>
-		</tr>
+
 		
-		<tr>
-			<th style="border-bottom:none;">Everything</th>
-			<td>$12</td>
-			<td>$15</td>
-		</tr>
-		
-		</table>
-		</div>
-		</div>
-			</div>
-			</div>
-			</div>
-	   	</div>
-	   	</div>
-	   	</div>
+		</tbody></table>
+  </div>
+</div>
+	 
+	  </div>
 
-	   <div>
+    <!-- Location -->
 
-	   <iframe width="100%" height="850" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=DioAmore+Dance+%26+Fitness+Studio,+848+Alamo+Drive,+Vacaville,+CA&amp;aq=0&amp;oq=dioamor&amp;sll=38.232579,-122.033494&amp;sspn=0.314447,0.633774&amp;ie=UTF8&amp;hq=DioAmore+Dance+%26+Fitness+Studio,&amp;hnear=848+Alamo+Dr,+Vacaville,+Solano,+California+95688&amp;t=m&amp;ll=38.347933,-122.001028&amp;spn=0.016828,0.021436&amp;z=16&amp;iwloc=A&amp;output=embed"></iframe>
+    <div></div>
 
-	   </div>
+    <!-- Mission-->
 
-	   <div>
-		<div id="missioncontainer">
-	   <img src="images/dioamoremissionrevised.png" class="dioamoremission"></img>
-	   </div>
-	   <div class="accordion">
-		<div>
-		<input id="missionacd" name="acd3" type="checkbox"/>
-		<label for="missionacd">What else do I need to know?</label>
-			<div class="missionacdcontent">
-				<div id="missionstuff">
-				<p>Allow us to unleash a veritable symphony of learning upon the very fibers of your SOUL:</p>
+    <img class="rsImg" id="mission" src="img/dioamoremissionrevised.png"></img>
 
-				<textarea readonly rows="100" cols="120">
+    <!--FAQ-->
+<div id="faq">
+<dl class="accordion" data-accordion="">
+        <dd>
+            <a href="#panel1b">What else do I need to know?</a>
 
-We&apos;re a happy bunch. Leave your negativity out the door, and even if you&apos;ve had a bad day, prepare to smile, laugh, 
-and have fun. Grumpy, mean, stuck-up, snobby, argumentative, negative, petty, and rude people are not particularly &quot;our 
-kind of people&quot;. Kind, generous, happy, joyful, positive, loving, encouraging, friendly, and fun people are REALLY welcome. 
+            <div class="content" id="panel1b"><p>
+We're a happy bunch. Leave your negativity out the door, and even if you've had a bad day, prepare to smile, laugh, 
+and have fun. Grumpy, mean, stuck-up, snobby, argumentative, negative, petty, and rude people are not particularly "our 
+kind of people". Kind, generous, happy, joyful, positive, loving, encouraging, friendly, and fun people are REALLY welcome.</p>
 
-When you come in, take a look at the white to the right of the entrance. This board is updated regularly, and will have information 
+<p>When you come in, take a look at the white to the right of the entrance. This board is updated regularly, and will have information 
 and messages about upcoming events that are important. Smile and greet your friends, and introduce yourself to new faces. Finally, 
-make your way over to the sign-in sheet, and check off the classes you will be attending for that day.
+make your way over to the sign-in sheet, and check off the classes you will be attending for that day.</p>
 
-Please put your phones on silent! Noise - other than music that is being played - is disruptive to the class setting.
+<p>Please put your phones on silent! Noise - other than music that is being played - is disruptive to the class setting.</p>
 
-Mints and gum are provided at the registration desk for you. Please be courteous, and take only one of them.  They are provided 
+<p>Mints and gum are provided at the registration desk for you. Please be courteous, and take only one of them.  They are provided 
 free for everyone, so please be considerate. Hand sanitizer and tissues are also provided.  The idea is to have decent breath
-and sanitary hands when you are interacting with others.  :)
+and sanitary hands when you are interacting with others.  :)</p>
 
-You&apos;ll also find a collection of personal care products in the bathroom. Hair products, lotion, deodorant sprays, Q-tips, feminine 
+<p>You'll also find a collection of personal care products in the bathroom. Hair products, lotion, deodorant sprays, Q-tips, feminine 
 care products, floss, and face wipes, among other things, are provided. If you sweated up a storm during class, ran here from 
-work, or just arrived here from your garlic and onion dinner, you may need a little &quot;pick-me-up&quot;, so feel free to utilize our
+work, or just arrived here from your garlic and onion dinner, you may need a little "pick-me-up", so feel free to utilize our
 products. We want you to look as good as that power-point presentation that you spent all night producing, yeah? Like we've
-said before, this is your second home. 
+said before, this is your second home. </p>
 
-Studio cubbies are for you. If you&apos;re a regular, you can claim a cubby for yourself to store the things you may regularly use in 
+<p>Studio cubbies are for you. If you're a regular, you can claim a cubby for yourself to store the things you may regularly use in 
 the studio, such as water bottles, hand weights, sweat towels, hair ties, dance shoes, and anything else. This is your piece of the 
 studio. Additionally, your mats and foam rollers (&lt;24in.) can be stored at the studio. Please put your name on the edge of your
-stored items, for easy identification; be sure to place it in the proper cubby.    
+stored items, for easy identification; be sure to place it in the proper cubby.</p>    
 
-Leave your ego out the door - it&apos;s of no use to you, here. Let your hair down, let go, be a little sillier, and laugh at yourself. When 
-something gets hard, don’t give up. Try harder! Your weakness doesn&apos;t help you on your journey through life, and giving up doesn&apos;t give 
-you strength of character.  Never believe you are not capable of doing something. Be open to corrections, and give the best you have to give.
+<p>Leave your ego out the door - it's of no use to you, here. Let your hair down, let go, be a little sillier, and laugh at yourself. When 
+something gets hard, don't give up. Try harder! Your weakness doesn't help you on your journey through life, and giving up doesn't give 
+you strength of character.  Never believe you are not capable of doing something. Be open to corrections, and give the best you have to give.</p>
 
-&quot;Can&apos;t&quot; is a bad word at the studio. Don&apos;t say it. It brings bad energy into our space, and we won&apos;t believe you when 
-you say it. Instead, proclaim that you are &quot;finding it challenging&quot;, or &quot;working towards accomplishing it&quot;.  You are on a journey 
+<p>"Can't" is a bad word at the studio. Don't say it. It brings bad energy into our space, and we won't believe you when 
+you say it. Instead, proclaim that you are "finding it challenging", or "working towards accomplishing it".  You are on a journey 
 towards accomplishing something - we all are. Life is a series of challenges, in which we are given opportunities to grow stronger 
 in mind, body and spirit. You cannot be brave without first having something to fear. You will not grow stronger without first having 
 something to challenge you beyond your current strength. You do not learn to fly without first trusting your feet off the ground. You 
-will never know your own strength, if you defeat yourself in your head first. Let others say you can&apos;t. There is always someone out 
-there who is willing to push you down so they can feel better. Don&apos;t be that person. You are a person who can, and will.  
+will never know your own strength, if you defeat yourself in your head first. Let others say you can't. There is always someone out 
+there who is willing to push you down so they can feel better. Don't be that person. You are a person who can, and will.</p>  
 
-Honor your body. Don't do things you shouldn&apos;t, but don't neglect what you should be doing. This includes exercises, movements, and 
+<p>Honor your body. Don't do things you shouldn't, but don't neglect what you should be doing. This includes exercises, movements, and 
 your dietary intake. You are not here to impress anyone but yourself. Do what is right for your body by modifying when necessary, but 
-participating somehow. Go as hard as YOU can for as long as YOU can. That is all we ask.  
- 
-		</textarea>
-		</div>
-		
-	    </div>
-		</div>
-		</div>
-		</div>
-		
-	   <div class="faqcontainer">
-	    <div class="accordion">
-			<div>
-			<input id="faq1" name="faq" type="radio"/>
-			<label for="faq1">How do I get started?</label>
-			<div class="faqcontent">
-			
-			<p>Just show up!  Arrive a little early for your class. You will receive a liability waiver and a new student sheet to fill out - after that, pay your tuition, and you are ready to go!</p>
-			
-			</div>
-			</div>
-			
-			<div>
-			<input id="faq2" name="faq" type="radio"/>
-			<label for="faq2">When do I pay tuition? What is the late fee policy?</label>
-			<div class="faqcontent">
-			
-			<p>Tuition is due on the day of your first class - or, for returning students, on the first day you attend a class in the new month.
-For example, if the first class you attend is on Tuesday the fourth, you would register for all of your classes on the that date, given that you are not paying on a per-class basis. Taking more classes would mean lower payment per class, but you can also opt to pay for individual classes. (Visit the "Lessons" tab for more information. How did you get here first, huh?)</p><p> There will be a ten day grace period from when you have taken your first class in the month to make a payment. After ten days, we will apply a late fee of $20 to your account. We appreciate your cooperation, as this helps to keep the administrative work easy and efficient. (We don&apos;t want to add a fee, so just make it easy and pay us at the first of the month, pretty please.)</p>
-			
-			</div>
-			</div>
-			
-			<div>
-			<input id="faq3" name="faq" type="radio"/>
-			<label for="faq3">What payment methods are accepted?</label>
-			<div class="faqcontent">
-			
-			<p>We accept cash, check or credit. Visa, American Express, Mastercard & Discover are accepted.</p>
-			
-			</div>
-			</div>
-			
-			<div>
-			<input id="faq4" name="faq" type="radio"/>
-			<label for="faq4">What should I wear for my class?</label>
-			<div class="faqcontent" id="faqsub1">
-			
-				<div>
-				<input id="sfaq1" name="faq2" type="radio" />
-				<label for="sfaq1" class="faqsub">Clothing and Footwear</label>
-				<div class="faqcontent">
-					<p>Wear whatever you are comfortable moving in.  Clothing that will <em>not require constant adjustment</em> as you move would be ideal. (I know how much you love that tube-top, but.. come on.) Fabric that breathes is often beneficial. What's more, try not to wear anything too loose - your body is a part of the dance, not just your legs.</p>
-					
-					<p>For footwear, specifics are described in detail within the following sections - but, as a general rule, <em>don't dance in shoes that have marking soles</em>. These create "scuffs" that are difficult to clean.</p>
-				</div>
-				</div>
-				
-				<div>
-				<input id="sfaq3" name="faq2" type="radio" />
-				<label for="sfaq3" class="faqsub">Dance Classes</label>
-				<div class="faqcontent">
-					<p>A <em>ballroom shoe</em> is most appropriate for dance classes. Ballroom shoes have suede bottoms, stay on feet properly (as opposed to a "slip-on" shoe or flip-flops), and are usually more flexible than your traditional shoe. Another good choice is the <em>jazz sneaker</em>. Jazz sneakers have no arch, which allows for additional flexibility, and are not sticky on the bottom; this allows for easier turns.</p>
+participating somehow. Go as hard as YOU can for as long as YOU can. That is all we ask.</p> 
+ </div>
+        </dd>
 
-					<p>If these are not viable options for you, any shoes that are not too sticky, not too slippery, will stay on, and are comfortable should work. Shoes that are not appropriate for dance classes would be sticky, rubber-bottomed shoes that make it difficult to turn in, shoes with heels so high they are difficult to balance in, or "slip-on" shoes such as mules or flip-flops.  Dancing in your socks would be preferable to those options.</p>
-				</div>
-				</div>
-				
-				<div>
-				<input id="sfaq4" name="faq2" type="radio" />
-				<label for="sfaq4" class="faqsub">Fitness Classes</label>
-				<div class="faqcontent">
-					<p>About <em>one-half</em> of the fitness classes can or should be done with bare feet. For the other classes, our shoe of preference here at the studio is the <em><a href="http://vibram.com/">Vibram Fivefinger</a>&reg;</em>. These shoes are <em>light, flexible</em>, and most importantly, allow your feet to work and move the way they were <em>meant to</em>. Vibram&reg; shoes will strengthen your feet and lower limbs, as well as improve balance and proprioception.</p>
-				</div>
-				</div>
-			
-			</div>
-			</div>
-			
-			<div>
-			<input id="faq5" name="faq" type="radio"/>
-			<label for="faq5">What if I miss a class?</label>
-			<div class="faqcontent">
-			
-			<p>You are allowed to make up <em>drop-in</em> classes only for the month in which you missed your drop-in class. For example, you may make up classes you miss in <em>January</em>, but only in <em>January</em>. Missed classes for <em>progressive</em> classes cannot be made up; there is no replacement for missing the information in those types of classes - unless you schedule private lessons.</p>
-			
-			</div>
-			</div>
-			
-			<div>
-			<input id="faq6" name="faq" type="radio"/>
-			<label for="faq6">Which classes are &quot;drop-in&quot;? Which classes are &quot;progressive&quot;?</label>
-			<div class="faqcontent">
-			
-			<p>Salsa and West Coast Swing are <em>&quot;progressive&quot;</em> classes. All other classes are <em>&quot;drop-in&quot;</em> classes.</p>
-			
-			</div>
-			</div>
-			
-			<div>
-			<input id="faq7" name="faq" type="radio"/>
-			<label for="faq7">What classes can I take as an Unlimited Member?</label>
-			<div class="faqcontent">
-			
-			<p>You can take any of the regular weekly classes that are appropriate for your skill level. TRX classes are the <em>only exception to the rule</em>. TRX is NOT included in your <em>Unlimited</em> Membership - however, <em>Unlimited</em> members DO receive a dollar off discount off of each of their TRX classes. Specialty workshops and dances are held at an additional cost, but are often times discounted for our <em>Unlimited</em> members.  We encourage our <em>Unlimited</em> members to take as many classes as are open to them.</p>
-			
-			</div>
-			</div>
-			
-			<div>
-			<input id="faq8" name="faq" type="radio"/>
-			<label for="faq8">How do I know if I am ready for the intermediate class?</label>
-			<div class="faqcontent">
-			
-			<p>If you are familiar and comfortable with all your basics from a given <em>beginner-level</em> class, then you should be ready for the intermediate class. You can also just ask your instructor!</p>
-			
-			</div>
-			</div>
-			
-			<div>
-			<input id="faq9" name="faq" type="radio"/>
-			<label for="faq9">Do you hold dances?</label>
-			<div class="faqcontent">
-			
-			<p>We usually have a Sunday Tea Dance, and a Friday or Saturday night dance each month. Parties are for dancers of all levels to enjoy. The goal is to create a <em>safe, comfortable</em> and <em>fun</em> environment for anyone to participate in. You are encouraged to dance with as many people as possible throughout the duration of the party.</p>
-			
-			</div>
-			</div>
-			
-			<div>
-			<input id="faq10" name="faq" type="radio"/>
-			<label for="faq10">Do I need a partner?</label>
-			<div class="faqcontent">
-			
-			<p>You are never required to take a partner to any of our classes or dances.</p>
-			
-			</div>
-			</div>
-			
-			<div>
-			<input id="faq11" name="faq" type="radio"/>
-			<label for="faq11">How do I schedule a private lesson?</label>
-			<div class="faqcontent">
-			
-			<p>Private lessons are scheduled at any day and time that is convenient for both the instructor and student(s).</p>
-			
-			</div>
-			</div>
-			
-			<div>
-			<input id="faq12" name="faq" type="radio"/>
-			<label for="faq12">Do private lessons cost the same amount for a couple as they do for a single person?</label>
-			<div class="faqcontent">
-			
-			<p>A private lesson price is the <em>same rate</em>, regardless of whether one or two students are being taught. Additional people are <em>$10 each</em>. A personal training session is reserved just for <em>one person</em>.</p>
-			
-			</div>
-			</div>
-			
-			<div>
-			<input id="faq13" name="faq" type="radio"/>
-			<label for="faq13">Where is the studio?</label>
-			<div class="faqcontent">
-			
-			<p>The studio can be troublesome to find, but it can be helpful to know where it is in relation to other businesses: In Alamo Plaza, it is to the <em>left</em> of Big Lots, and to the <em>right</em> of Jumpamania.</p>
-			
-			</div>
-			</div>
-			
-			<div>
-			<input id="faq14" name="faq" type="radio"/>
-			<label for="faq14"> What is your returned check policy?</label>
-			<div class="faqcontent">
-			
-			<p>As with most businesses, a standard rate of <em>$25</em> is applied to returned checks.</p>
-			
-			</div>
-			</div>
-			
-			<div>
-			<input id="faq15" name="faq" type="radio"/>
-			<label for="faq15">What is your cancellation policy?</label>
-			<div class="faqcontent">
-			
-			<p><em>Private Sessions</em></p>
-			<p>As the person now responsible for your dance/fitness education, I prefer to never simply cancel a lesson; I'd rather reschedule it for another day or time, within the same week. However, in the event one should need to cancel their lesson, a notice three days in advance is greatly appreciated, so that I may be able to accommodate other students. Should a lesson be cancelled with less than one day's advance notice, there will be a charge of the lesson rate imposed.(Reasonable exceptions will be made.)</p>
-			<p><em>General classes</em></p>
-			<p>There are no refunds for cancellation of any lessons. Lessons are not transferable to another party.</p>
-			
-			</div>
-			</div>
-			
-		</div>
+        <dd>
+            <a href="#panel2b">How do I get started?</a>
+
+            <div class="content" id="panel2b">
+                <p>Just show up! Arrive a little early for your class. You will
+                receive a liability waiver and a new student sheet to fill out
+                - after that, pay your tuition, and you are ready to go!</p>
+            </div>
+        </dd>
+
+        <dd>
+            <a href="#panel3b">What payment methods are accepted?</a>
+
+            <div class="content" id="panel3b">
+                <p>We accept cash, check or credit. Visa, American Express,
+                Mastercard & Discover are accepted.</p>
+            </div>
+        </dd>
+
+        <dd>
+            <a href="#panel4b">What should I wear to class?</a>
+
+            <div class="content" id="panel4b">
+                <dl class="tabs" data-tab="">
+                    <dd><a href="#panel3c">Clothing and Footwear</a></dd>
+
+                    <dd><a href="#panel4c">Dance Classes</a></dd>
+
+                    <dd><a href="#panel5c">Fitness Classes</a></dd>
+                </dl>
+
+                <div class="tabs-content">
+                    <div class="content active" id="panel3c">
+                        <p>Wear whatever you are comfortable moving in.
+                        Clothing that will not require constant adjustment as
+                        you move would be ideal. Fabric that breathes is often
+                        beneficial. What's more, try not to wear anything too
+                        loose - your body is a part of the dance, not just your
+                        legs. For footwear, specifics are described in detail
+                        within the following sections - but, as a general rule,
+                        don't dance in shoes that have marking soles. These
+                        create "scuffs" that are difficult to clean.</p>
+                    </div>
+
+                    <div class="content" id="panel4c">
+                        <p>A ballroom shoe is most appropriate for dance
+                        classes. Ballroom shoes have suede bottoms, stay on
+                        feet properly (as opposed to a "slip-on" shoe or
+                        flip-flops), and are usually more flexible than your
+                        traditional shoe. Another good choice is the jazz
+                        sneaker. Jazz sneakers have no arch, which allows for
+                        additional flexibility, and are not sticky on the
+                        bottom; this allows for easier turns. If these are not
+                        viable options for you, any shoes that are not too
+                        sticky, not too slippery, will stay on, and are
+                        comfortable should work. Shoes that are not appropriate
+                        for dance classes would be sticky, rubber-bottomed
+                        shoes that make it difficult to turn in, shoes with
+                        heels so high they are difficult to balance in, or
+                        "slip-on" shoes such as mules or flip-flops. Dancing in
+                        your socks would be preferable to those options.</p>
+                    </div>
+
+                    <div class="content" id="panel5c">
+                        <p>About one-half of the fitness classes can or should
+                        be done with bare feet. For the other classes, our shoe
+                        of preference here at the studio is the Vibram
+                        Fivefinger®. These shoes are light, flexible, and most
+                        importantly, allow your feet to work and move the way
+                        they were meant to. Vibram® shoes will strengthen your
+                        feet and lower limbs, as well as improve balance and
+                        proprioception.</p>
+                    </div>
+                </div>
+            </div>
+        </dd>
+
+        <dd>
+            <a href="#panel5b">What happens if I miss a class?</a>
+
+            <div class="content" id="panel5b">
+                <p>You are allowed to make up drop-in classes only for the
+                month in which you missed your drop-in class. For example, you
+                may make up classes you miss in January, but only in January.
+                Missed classes for progressive classes cannot be made up; there
+                is no replacement for missing the information in those types of
+                classes - unless you schedule private lessons.</p>
+            </div>
+        </dd>
+
+        <dd>
+            <a href="#panel6b">Which classes are "progressive"? How about
+            "drop-in"?</a>
+
+            <div class="content" id="panel6b">
+                <p>Salsa and West Coast Swing are "progressive" classes. All
+                other classes are "drop-in" classes.</p>
+            </div>
+        </dd>
+
+        <dd>
+            <a href="#panel7b">How does "Unlimited" membership work?</a>
+
+            <div class="content" id="panel7b">
+                <p>You can take any of the regular weekly classes that are
+                appropriate for your skill level. TRX classes are the only
+                exception to the rule. TRX is NOT included in your Unlimited
+                Membership - however, Unlimited members DO receive a dollar off
+                discount off of each of their TRX classes. Specialty workshops
+                and dances are held at an additional cost, but are often times
+                discounted for our Unlimited members. We encourage our
+                Unlimited members to take as many classes as are open to
+                them.</p>
+            </div>
+        </dd>
+
+        <dd>
+            <a href="#panel8b">How do I know if I'm ready for intermediate
+            classes?</a>
+
+            <div class="content" id="panel8b">
+                <p>If you are familiar and comfortable with all your basics
+                from a given beginner-level class, then you should be ready for
+                the intermediate class. You can also just ask your
+                instructor!</p>
+            </div>
+        </dd>
+
+        <dd>
+            <a href="#panel9b">Do you hold dances?</a>
+
+            <div class="content" id="panel9b">
+                <p>We usually have a Sunday Tea Dance, and a Friday or Saturday
+                night dance each month. Parties are for dancers of all levels
+                to enjoy. The goal is to create a safe, comfortable and fun
+                environment for anyone to participate in. You are encouraged to
+                dance with as many people as possible throughout the duration
+                of the party.</p>
+            </div>
+        </dd>
+
+        <dd>
+            <a href="#panel10b">Do I need to bring a partner?</a>
+
+            <div class="content" id="panel10b">
+                <p>You are never required to take a partner to any of our
+                classes or dances.</p>
+            </div>
+        </dd>
+
+        <dd>
+            <a href="#panel11b">How do I schedule a private lesson?</a>
+
+            <div class="content" id="panel11b">
+                <p>Private lessons are scheduled at any day and time that is
+                convenient for both the instructor and student(s).</p>
+            </div>
+        </dd>
+
+        <dd>
+            <a href="#panel12b">Do private lessons cost the same for singles
+            and couples?</a>
+
+            <div class="content" id="panel12b">
+                <p>A private lesson price is the same rate, regardless of
+                whether one or two students are being taught. Additional people
+                are $10 each. A personal training session is reserved just for
+                one person.</p>
+            </div>
+        </dd>
+
+        <dd>
+            <a href="#panel13b">Where is the studio?</a>
+
+            <div class="content" id="panel13b">
+                Refer to the <a class="slidescontroller" id="#slide-4" name=
+                "#slide-4">Location</a> page.
+            </div>
+        </dd>
+
+        <dd>
+            <a href="#panel14b">What is your returned check policy?</a>
+
+            <div class="content" id="panel14b">
+                <p>As with most businesses, a standard rate of $25 is applied
+                to returned checks.</p>
+            </div>
+        </dd>
+
+        <dd>
+            <a href="#panel15b">What is your cancellation policy?</a>
+
+            <div class="content" id="panel15b">
+                <h2>Private lessons</h2>
+
+                <p>As the person now responsible for your dance/fitness
+                education, I prefer to never simply cancel a lesson; I'd rather
+                reschedule it for another day or time, within the same week.
+                However, in the event one should need to cancel their lesson, a
+                notice three days in advance is greatly appreciated, so that I
+                may be able to accommodate other students. Should a lesson be
+                cancelled with less than one day's advance notice, there will
+                be a charge of the lesson rate imposed.(Reasonable exceptions
+                will be made.)</p>
+
+                <h2>General classes</h2>
+
+                <p>There are no refunds for cancellation of any lessons.
+                Lessons are not transferable to another party.</p>
+            </div>
+        </dd>
+
+        <dd>
+            <a href="#panel16b">When do I pay tuition? What is the late fee
+            policy?</a>
+
+            <div class="content" id="panel16b">
+                <p>Tuition is due on the day of your first class - or, for
+                returning students, on the first day you attend a class in the
+                new month. For example, if the first class you attend is on
+                Tuesday the fourth, you would register for all of your classes
+                on the that date, given that you are not paying on a per-class
+                basis. Taking more classes would mean lower payment per class,
+                but you can also opt to pay for individual classes. (Visit the
+                "Lessons" tab for more information.)</p>
+
+                <p>There will be a ten day grace period from when you have
+                taken your first class in the month to make a payment. After
+                ten days, we will apply a late fee of $20 to your account. We
+                appreciate your cooperation, as this helps to keep the
+                administrative work easy and efficient. (We don't want to add a
+                fee, so just make it easy and pay us at the first of the month,
+                pretty please.)</p>
+            </div>
+        </dd>
+    </dl>
+
+    
+    <div class="panel"><h2>If you <em>still</em>  have questions, <a class="slidescontroller" id="#slide-7">Contact</a> us.</h2></div>
+
+
+</div>
+    <!--Contact-->
+
+    <div></div>
+
+    <!--Media-->
+
+    <iframe width="100%" height="500" src="//www.youtube.com/embed/videoseries?list=PLo8cKTmw_k2ZqHiaVZ0l_e2ueu9xIqAfB" frameborder="0" allowfullscreen></iframe>
+
+
+    </div>	
 	</div>
-	   
-	   <div>
-	   <div class="beforecfrm">
-	   <h1>What, info not comprehensive enough for 'ya? Well, I understand. My feelings aren't hurt.<br></h1>
-	   <p>We'll get back to you as soon as we can. There are dances to be danced, and students to be taught!</p>
-	   </div>
-	   <div class="cfrm">
-	   <?php
-if (isset($_REQUEST['email']))
-//if "email" is filled out, send email
-  {
-  //send email
-  $email = $_REQUEST['email'] ;
-  $subject = $_REQUEST['subject'] ;
-  $message = $_REQUEST['message'] ;
-  $toinst 
-  mail($toinst, $subject,
-  $message, "From:" . $email);
-  echo "Thank you for using our mail form";
-  }
-else
-//if "email" is not filled out, display the form
+	</div>
+    </section>
 
-<form method='post' action='mailform.php'><div class="contactform">
-  <p>Email</p> <input name='email' type='text' class='emailform'>
- <p> Subject</p> <input name='subject' type='text' class='subjectform'>
- <p> Message</p><textarea name='message' rows='10' cols='30' class='messageform'>
-  </textarea>
-  <ul id="contactul"><li><input type="radio" name="submitselect" class="subminp" id="ang"><label for="ang">Send to Angeline</label></li>
-  <li><input type="radio" name="submitselect" class="subminp" id="kath"><label for="kath">Send to Kathleen</label></li></ul>
-  <input type='submit' class='submitbtn'>
+  <a class="exit-off-canvas"></a>
+
   </div>
-  </form>
+</div>
+    	
 
-		</div>
-  		</div>
-	   <div id="medtabcontainer">
-	   </div>
-	   <div id="tutcontainer">
-	   </div>
-	</div>
-</div>
-</div>
-<footer>
-<div id="ftimg">
-<a href="https://www.facebook.com/dioamoredance/">
-<img src="images/facebook.png"></img>
-</a>
-</div>
-<div id="fthead">
-<h1>Copyright 2013; DioAmore Dance &amp; Fitness. All rights reserved.</h1>
-</div>
-</footer>
-</body>
+  <!-- close the off-canvas menu -->
+  <a class="exit-off-canvas"></a>
 
+  </div>
+</div>
+
+  <footer>
+  
+
+
+  </footer>  
+    <script src="js/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+	<script src="royalslider/jquery.royalslider.min.js"></script>
+    <script type='text/javascript' src='bower_components/fullcalendar/fullcalendar.min.js'></script>
+    <script type='text/javascript' src='bower_components/fullcalendar/gcal.js'></script>
+    <script src="js/modernizr.js"></script>
+
+
+	<script>
+
+     $('.tabrecalc').click(function () {
+
+         slider.updateSliderSize(true);
+     });
+     $('.accordion dd a').click(function () {
+         slider.updateSliderSize(true);
+     });
+</script>
+    <script>
+
+        $(document).foundation();
+        
+        jQuery(document).ready(function ($) {
+           
+            slider = $(".royalSlider").royalSlider({
+                autoHeight: true,
+                arrowsNav: false,
+                autoScaleSlider:false,
+                fadeinLoadedSlide: false,
+                controlNavigationSpacing: 0,
+                controlNavigation: 'tabs',
+                imageScaleMode: 'none',
+                imageAlignCenter: false,
+                loop: false,
+                loopRewind: true,
+                numImagesToPreload: 6,
+                keyboardNavEnabled: true,
+                usePreloader: false,
+                navigateByClick: false,
+                deeplinking: {
+                    enabled: true,
+                    prefix: 'slide-'
+                }
+            }).data('royalSlider');
+
+
+            $('#calendar').fullCalendar({
+
+                events: 'https://www.google.com/calendar/feeds/dioamoredance%40gmail.com/public/basic',
+                eventColor: 'brown',
+                ignoreTimezone: false,
+
+                eventClick: function (event) {
+
+
+                    url = event.url + '&ctz=America/Los_Angeles';
+
+
+                    if (/mode=native/.test(url)) {
+
+
+                        $.get(url, function (data) {
+
+                            $('#modalEvent').html(data);
+
+                        });
+
+                    } else {
+
+                        // Make JSON request.
+                        $.getJSON("http://query.yahooapis.com/v1/public/yql?" +
+                                          "q=select%20*%20from%20html%20where%20url%3D%22" +
+                                           encodeURIComponent(url) +
+                                           "%22&format=xml'&callback=?", function (data) {
+                                               if (data.results[0]) {
+                                                   var data = filterData(data.results[0]);
+                                                   $('#modalEvent').html(data);
+                                               }
+                                           });
+                    }
+                    $.ajaxSetup({ cache: false });
+                    $('#modalEvent').foundation('reveal', 'open');
+                    return false;
+                    function filterData(data) {
+
+                        data = data.replace(/<?\/body[^>]*>/g, '');
+
+                        data = data.replace(/[\r|\n]+/g, '');
+
+                        data = data.replace(/<--[\S\s]*?-->/g, '');
+
+                        data = data.replace(/<noscript[^>]*>[\S\s]*?<\/noscript>/g, '');
+
+                        data = data.replace(/<script[^>]*>[\S\s]*?<\/script>/g, '');
+
+                        data = data.replace(/<script.*\/>/, '');
+
+                        return data;
+                    }
+                }
+            });
+        });
+
+
+    </script>
+      <script>
+          jQuery(function ($) {
+              $(".slidescontroller").click(function () {
+                  var slidestring = $(this).attr('id');
+                  var slidenum = parseInt(slidestring.charAt(7));
+                  slider.goTo(slidenum);
+                  if ($('#headmodal').hasClass('open'))
+                  { $('#headmodal').foundation('reveal', 'close'); }
+              });
+              $("#dioamore").click(function () {
+                  slider.goTo(0);
+              }
+              );
+
+          });
+
+</script>
+     <script>$('#panel1b').click(function(){
+    $(this).removeClass('active');
+});</script>
+     <script>         $('#accordionclickhandle').click(function () {
+             $('.unhighlight').parent().removeClass('active');
+         });
+         $('.unhighlight').click(function () {
+             $('#classdesc').removeClass('active');
+
+         });
+     </script>
+      <script>
+          jQuery(function ($) {
+              var moblock = $("#flt").css("display");
+              if (moblock == "none")
+              { $("#calendar").fullCalendar('changeView', 'month'); }
+              else if (moblock == "block")
+              {$("#calendar").fullCalendar('changeView', 'basicWeek');}
+          });
+      </script>
+
+
+  </body>
 </html>
+
+
+
